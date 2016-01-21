@@ -1,6 +1,6 @@
 
 @book{Kolawa2007,
-  author = {Kolawa, Adam and Huizinga, Dorota and {Wiley InterScience (Online service)}},
+  author = {Kolawa, Adam and Huizinga, Dorota and {{Wiley InterScience (Online service)}}},
   date = {2007},
   isbn = {978-0-470-16516-4},
   keywords = {Computer programs -- Correctness.,Computer programs -- Testing -- Data processing.,Debugging in computer science -- Automatic control.,Software failures -- Prevention -- Data processing.,Software maintenance -- Data processing.},

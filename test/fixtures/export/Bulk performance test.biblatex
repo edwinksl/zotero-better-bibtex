@@ -68,7 +68,7 @@
 }
 
 @book{FredensborgKommuneUSSERODA,
-  author = {{Fredensborg Kommune} and {NIRAS A/S}},
+  author = {{{Fredensborg Kommune}} and {{NIRAS A/S}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {{{USSERØD Å}} – {{KONSEKVENSVURDERING AF UDDYBNING}}}
 }
@@ -306,7 +306,7 @@
 }
 
 @book{FredensborgKommune2012KlimatilpasningsstrategiKloaksystem,
-  author = {{Fredensborg Kommune} and {Fredensborg Forsyning A/S} and Paludan, Birgit Krogh},
+  author = {{{Fredensborg Kommune}} and {{Fredensborg Forsyning A/S}} and Paludan, Birgit Krogh},
   date = {2012},
   langid = {danish},
   timestamp = {2015-02-24 12:14:36 +0100},
@@ -368,7 +368,7 @@
 }
 
 @book{COWIAS2014KortlaegningAf,
-  author = {{COWI A/S} and {NIRAS A/S}},
+  author = {{{COWI A/S}} and {{NIRAS A/S}}},
   date = {2014},
   langid = {danish},
   publisher = {{{Fredensborg Kommune. Center for Plan og Miljø}}},
@@ -565,7 +565,7 @@
   author = {Goffman, Erving},
   date = {1990},
   isbn = {978-0-14-013571-8},
-  publisher = {{Penguin Books, {[}1959]}},
+  publisher = {{{Penguin Books, {[}1959]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {The {{Presentation}} of {{Self}} in {{Everyday Life}}}
 }
@@ -602,7 +602,7 @@
   keywords = {Knowledge; Sociology of,Med 1: 238,Science Concepts Formation,Syphilis Diagnosis Wassermann reaction},
   location = {{{Chicago}}},
   pagetotal = {203},
-  publisher = {{University of Chicago Press, {[}1935]}},
+  publisher = {{{University of Chicago Press, {[}1935]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {The {{Genesis}} and {{Development}} of a {{Scientific Fact}}}
 }
@@ -628,7 +628,7 @@
   isbn = {87-7407-280-3},
   keywords = {vigtig},
   langid = {danish},
-  publisher = {{Arkitektens Forlag, {[}1971]}},
+  publisher = {{{Arkitektens Forlag, {[}1971]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Livet mellem husene. Udeaktiviteter og udemiljøer}
 }
@@ -778,7 +778,7 @@
   isbn = {978-1-4299-2828-1},
   keywords = {Nature / Ecology,Travel / United States / Northeast / New England (CT; MA; ME; NH; RI; VT)},
   pagetotal = {288},
-  publisher = {{Macmillan, {[}1983]}},
+  publisher = {{{Macmillan, {[}1983]}}},
   shorttitle = {Changes in the {{Land}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Changes in the {{Land}}: {{Indians}}, {{Colonists}}, and the {{Ecology}} of {{New England}}}
@@ -931,7 +931,7 @@
 }
 
 @report{NIRASAS2011KlimatilpasningKokkedal,
-  author = {{NIRAS A/S} and Iversen, Esben Ravn and Vium, Jørgen and Lynghus, Henrik and Paludan, Birgit Krogh},
+  author = {{{NIRAS A/S}} and Iversen, Esben Ravn and Vium, Jørgen and Lynghus, Henrik and Paludan, Birgit Krogh},
   date = {2011},
   institution = {{{Rudersdal, Hørsholm, og Fredensborg Kommuner}}},
   langid = {danish},
@@ -1037,7 +1037,7 @@
   author = {Serres, Michel},
   date = {2009},
   isbn = {978-0-8264-5984-8},
-  publisher = {{Continuum, {[}1986]}},
+  publisher = {{{Continuum, {[}1986]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {The Five Senses, a Philosophy of Mingled Bodies ({{I}})}
 }
@@ -1063,7 +1063,7 @@
 }
 
 @book{HojgaardJensen2013Graenselose,
-  author = {Højgaard Jensen, Ellen and Jørgensen, Gertrud and Hansen Møller, Kamilla and Winther, Lars and Partoft, Marie and Albertsen, Niels and {Dansk Byplanlaboratorium} and Københavns Universitet, Institut for Geovidenskab og Naturforskning},
+  author = {Højgaard Jensen, Ellen and Jørgensen, Gertrud and Hansen Møller, Kamilla and Winther, Lars and Partoft, Marie and Albertsen, Niels and {{Dansk Byplanlaboratorium}} and Københavns Universitet, Institut for Geovidenskab og Naturforskning},
   date = {2013},
   isbn = {978-87-7903-612-3},
   langid = {danish},
@@ -1156,7 +1156,7 @@
 
 @misc{KarleboKommune1944KarleboKommune,
   date = {1944-11},
-  editora = {{Karlebo Kommune} and Laugesen, Lauge},
+  editora = {{{Karlebo Kommune}} and Laugesen, Lauge},
   editoratype = {collaborator},
   langid = {danish},
   publisher = {{{Karlebo Kommune}}},
@@ -1168,7 +1168,7 @@
   author = {Strathern, Marilyn},
   date = {2004},
   edition = {Updated Edition},
-  publisher = {{Rowman and Littlefield, {[}1991]}},
+  publisher = {{{Rowman and Littlefield, {[}1991]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Partial Connections},
   url = {http://www.google.com/books?hl=da&lr=&id=DYB4AAAAQBAJ&oi=fnd&pg=PR3&dq=marilyn+strathern&ots=tpDJHATWRJ&sig=FLhTv0xdKZsyuFrW-5dAQTbnSIE},
@@ -1383,7 +1383,7 @@
   date = {1970},
   langid = {french},
   location = {{{København}}},
-  publisher = {{Vinten, {[}1960]}},
+  publisher = {{{Vinten, {[}1960]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Maleren og Filosoffen {[}L'oeil et l'esprit]}
 }
@@ -1442,7 +1442,7 @@
   date = {1991},
   edition = {Revised edition},
   location = {{{London; New York}}},
-  publisher = {{Verso, {[}1983]}},
+  publisher = {{{Verso, {[}1983]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Imagined {{Communities}}. {{Reflections}} on the {{Origin}} and {{Spread}} of {{Nationalism}}}
 }
@@ -1587,7 +1587,7 @@
 }
 
 @book{Orbicon2013KlimatilpasningOg,
-  author = {{Orbicon} and {SLA} and {Aalborg Universitet}},
+  author = {{{Orbicon}} and {{SLA}} and {{Aalborg Universitet}}},
   date = {2013},
   publisher = {{{Middelfart Spildevand;Orbicon; Middelfart Kommune;SLA;Realdania; Aalborg Universitet.}}},
   timestamp = {2015-02-24 12:14:36 +0100},
@@ -1704,7 +1704,7 @@
   date = {2008},
   isbn = {978-0-14-191798-6},
   pagetotal = {217},
-  publisher = {{Penguin Books Limited, {[}1972]}},
+  publisher = {{{Penguin Books Limited, {[}1972]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Ways of {{Seeing}}}
 }
@@ -1797,7 +1797,7 @@
   date = {1988},
   keywords = {Social Science / Gender Studies,Social Science / Women's Studies},
   pagetotal = {292},
-  publisher = {{Columbia University Press, {[}1986]}},
+  publisher = {{{Columbia University Press, {[}1986]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Gender and the {{Politics}} of {{History}}}
 }
@@ -1874,7 +1874,7 @@
 }
 
 @book{Dalgas2011Byplankonsulenttegnestuerne1960erne,
-  author = {Dalgas, Vibeke and {Dansk Byplanlaboratorium} and {Andreas Klarlund} and {Peder Boas Jensen}},
+  author = {Dalgas, Vibeke and {{Dansk Byplanlaboratorium}} and {{Andreas Klarlund}} and {{Peder Boas Jensen}}},
   date = {2011},
   edition = {1. oplag},
   isbn = {978-87-87487-20-7},
@@ -1957,7 +1957,7 @@
 }
 
 @book{Illeris2009BilenOg,
-  author = {Illeris, Sven and Clemmensen, Jens and {Dansk Byplanlaboratorium} and Byplanhistorisk Udvalg, Seminar},
+  author = {Illeris, Sven and Clemmensen, Jens and {{Dansk Byplanlaboratorium}} and Byplanhistorisk Udvalg, Seminar},
   date = {2009},
   edition = {{[}1. oplag]},
   isbn = {978-87-87487-18-4},
@@ -2443,7 +2443,7 @@
 }
 
 @report{NIRASAS2011KlimatilpasningKokkedala,
-  author = {{NIRAS A/S} and Iversen, Esben Ravn and Vium, Jørgen and Lynghus, Henrik and Paludan, Birgit Krogh},
+  author = {{{NIRAS A/S}} and Iversen, Esben Ravn and Vium, Jørgen and Lynghus, Henrik and Paludan, Birgit Krogh},
   date = {2011},
   institution = {{{Rudersdal, Hørsholm, og Fredensborg Kommuner}}},
   langid = {danish},
@@ -2496,7 +2496,7 @@
 }
 
 @book{KlimatilpasningKokkedal2012Projektkonkurrence,
-  author = {{Klimatilpasning Kokkedal} and {Fredensborg Kommune} and {Hausenberg} and Deichmann, Flemming},
+  author = {{{Klimatilpasning Kokkedal}} and {{Fredensborg Kommune}} and {{Hausenberg}} and Deichmann, Flemming},
   date = {2012},
   keywords = {vigtig},
   shorttitle = {Indbudt Projektkonkurrence},
@@ -2827,7 +2827,7 @@
   author = {Dragsbo, Peter},
   date = {2008},
   edition = {1. udgave, 1. oplag},
-  editora = {{Dansk Center for Byhistorie} and {Museum Sønderjylland}},
+  editora = {{{Dansk Center for Byhistorie}} and {{Museum Sønderjylland}}},
   editoratype = {collaborator},
   isbn = {978-87-88376-09-8},
   keywords = {mangler-metadata},
@@ -3562,7 +3562,7 @@
 }
 
 @book{Black1993CulturalAtlas,
-  author = {Black, Christopher F. and {al}, Et},
+  author = {Black, Christopher F. and {{al}}, Et},
   date = {1993},
   isbn = {0-671-86523-4},
   location = {{{New York}}},
@@ -3594,7 +3594,7 @@
 }
 
 @book{Damgaard1997KystbanenOg,
-  author = {Damgaard, Kjeld and Nielsen, Carl Chr and {Kystbanen}},
+  author = {Damgaard, Kjeld and Nielsen, Carl Chr and {{Kystbanen}}},
   date = {1997},
   isbn = {87-986529-0-7},
   langid = {danish},
@@ -3743,7 +3743,7 @@
 }
 
 @book{SkaarupJespersenarkitektermaa1973DispositionsplanGronne,
-  author = {{Skaarup \& Jespersen, arkitekter m.a.a} and {Karlebo Kommune, teknisk forvaltning}},
+  author = {{{Skaarup \& Jespersen, arkitekter m.a.a}} and {{Karlebo Kommune, teknisk forvaltning}}},
   date = {1973},
   langid = {danish},
   pagetotal = {7},
@@ -3805,7 +3805,7 @@
 }
 
 @book{DanskArkitekturCenterDK20502014DK2050,
-  author = {{Dansk Arkitektur Center DK2050} and {DAMVAD} and {Kairos Future}},
+  author = {{{Dansk Arkitektur Center DK2050}} and {{DAMVAD}} and {{Kairos Future}}},
   date = {2014},
   isbn = {978-87-90668-64-8},
   langid = {danish},
@@ -3816,7 +3816,7 @@
 }
 
 @book{COWIAS2014KortlaegningAfa,
-  author = {{COWI A/S} and {NIRAS A/S}},
+  author = {{{COWI A/S}} and {{NIRAS A/S}}},
   date = {2014},
   langid = {danish},
   publisher = {{{Fredensborg Kommune. Center for Plan og Miljø}}},
@@ -4048,7 +4048,7 @@
   author = {{{Le Corbusier}}},
   date = {1987},
   location = {{{New York}}},
-  publisher = {{Dover Publications, Inc., {[}1925]}},
+  publisher = {{{Dover Publications, Inc., {[}1925]}}},
   shorttitle = {The City of To-Morrow},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {The City of To-Morrow and Its Planning},
@@ -4650,7 +4650,7 @@
   author = {Schytte, Benny},
   date = {2009},
   edition = {{[}1. oplag]},
-  editora = {Mere Bevægelse i Byens Rum, projekt and {Indenrigs- og Socialministeriet}},
+  editora = {Mere Bevægelse i Byens Rum, projekt and {{Indenrigs- og Socialministeriet}}},
   editoratype = {collaborator},
   isbn = {978-87-7546-613-9},
   langid = {danish},
@@ -4896,7 +4896,7 @@
   langid = {danish},
   location = {{{Kbh.}}},
   pagetotal = {251 sider},
-  publisher = {{Hans Reitzels Forlag, {[}1997]}},
+  publisher = {{{Hans Reitzels Forlag, {[}1997]}}},
   shorttitle = {Vi har aldrig været moderne},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Vi har aldrig været moderne. Et essay om symmetrisk antropologi}
@@ -5246,7 +5246,7 @@
   editora = {{{Geodætisk Institut}}},
   editoratype = {collaborator},
   langid = {indonesian},
-  publisher = {{Historiske kort på nettet. Miljøministeriet. Geodatastyrelsen, {[}sidst rettet 1975]}},
+  publisher = {{{Historiske kort på nettet. Miljøministeriet. Geodatastyrelsen, {[}sidst rettet 1975]}}},
   shorttitle = {Kortblad 1514 II NØ 4 cm 1977},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Kortblad 1514 II NØ Espergærde. 1:25000, 4 cm}
@@ -5838,13 +5838,13 @@
   date = {1994},
   langid = {romanian},
   location = {{{New York}}},
-  publisher = {{Vintage Books, {[}1978]}},
+  publisher = {{{Vintage Books, {[}1978]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Orientalism}
 }
 
 @report{VANDPLUS2013VandplusRum,
-  author = {{VANDPLUS} and {Lokale og Anlægsfonden} and {Realdania} and {Naturstyrelsen} and {calberg/christensen}},
+  author = {{{VANDPLUS}} and {{Lokale og Anlægsfonden}} and {{Realdania}} and {{Naturstyrelsen}} and {{calberg/christensen}}},
   date = {2013},
   institution = {{{VANDPLUS}}},
   langid = {danish},
@@ -5884,7 +5884,7 @@
   isbn = {978-0-8047-2501-9},
   keywords = {Social Science / Sociology / General},
   pagetotal = {142},
-  publisher = {{Stanford University Press, {[}1992]}},
+  publisher = {{{Stanford University Press, {[}1992]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {The {{Illusion}} of the {{End}}}
 }
@@ -6055,7 +6055,7 @@
 }
 
 @report{Hausenberg2012KlimatilpasningKokkedal,
-  author = {{Hausenberg} and {Fredensborg Kommune}},
+  author = {{{Hausenberg}} and {{Fredensborg Kommune}}},
   date = {2012},
   institution = {{{Fredensborg Kommune}}},
   langid = {danish},
@@ -6381,7 +6381,7 @@
 }
 
 @book{KarleboKommune2002HelhedsorienteretByfornyelse,
-  author = {{Karlebo Kommune} and {SBS Byfornyelse}},
+  author = {{{Karlebo Kommune}} and {{SBS Byfornyelse}}},
   date = {2002},
   langid = {danish},
   publisher = {{{SBS Byfornyelse}}},
@@ -6535,7 +6535,7 @@
 }
 
 @report{Backhaus2012KlimatilpasningKokkedal,
-  author = {Backhaus, Antje and {Hausenberg}},
+  author = {Backhaus, Antje and {{Hausenberg}}},
   date = {2012},
   institution = {{{Fredensborg Kommune}}},
   langid = {norsk},
@@ -6653,7 +6653,7 @@
 }
 
 @book{FredensborgKommune2010Usseroda,
-  author = {{Fredensborg Kommune} and {NIRAS A/S}},
+  author = {{{Fredensborg Kommune}} and {{NIRAS A/S}}},
   date = {2010},
   langid = {norsk},
   timestamp = {2015-02-24 12:14:36 +0100},
@@ -7095,7 +7095,7 @@
   langid = {danish},
   location = {{{Frederiksberg}}},
   pagetotal = {367 sider.},
-  publisher = {{Det lille Forlag, {[}1966]}},
+  publisher = {{{Det lille Forlag, {[}1966]}}},
   shorttitle = {Ordene og tingene},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Ordene og tingene: En arkæologi om humanvidenskaberne}
@@ -7111,7 +7111,7 @@
 }
 
 @book{Jasanoff1995HandbookScience,
-  author = {Jasanoff, Sheila and {Society for Social Studies of Science}},
+  author = {Jasanoff, Sheila and {{Society for Social Studies of Science}}},
   date = {1995},
   isbn = {978-1-4129-9012-7 1-4129-9012-2 978-1-4522-1363-7 1-4522-1363-1},
   location = {{{Thousand Oaks, Calif.}}},
@@ -7361,7 +7361,7 @@
 }
 
 @book{DanskArkitekturCenterDK20502014DK2050a,
-  author = {{Dansk Arkitektur Center DK2050} and {Rambøll}},
+  author = {{{Dansk Arkitektur Center DK2050}} and {{Rambøll}}},
   date = {2014},
   langid = {norsk},
   publisher = {{{Dansk Arkitektur Center DK2050}}},
@@ -7629,7 +7629,7 @@
 }
 
 @misc{Realdania2012PartnerskabsaftaleMellem,
-  author = {{Realdania} and {Fredensborg Kommune}},
+  author = {{{Realdania}} and {{Fredensborg Kommune}}},
   date = {2012-06-22},
   langid = {danish},
   timestamp = {2015-02-24 12:14:36 +0100},
@@ -8102,7 +8102,7 @@
   langid = {afrikaans},
   options = {usetranslator=false},
   pagetotal = {255},
-  publisher = {{University of Minnesota Press, {[}1980]}},
+  publisher = {{{University of Minnesota Press, {[}1980]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {The Parasite},
   translator = {Schehr, Lawrence R.}
@@ -8277,7 +8277,7 @@
   isbn = {87-88608-44-1},
   langid = {danish},
   pagetotal = {332},
-  publisher = {{Det Kongelige Danske Kunstakademi, {[}1989]}},
+  publisher = {{{Det Kongelige Danske Kunstakademi, {[}1989]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Statuer, den anden bog om grundlæggelserne}
 }
@@ -8371,7 +8371,7 @@
 }
 
 @book{Clemmensen2008DanskPlanlaegning,
-  author = {Clemmensen, Jens and {Dansk Byplanlaboratorium} and Byplanhistorisk Udvalg, Seminar},
+  author = {Clemmensen, Jens and {{Dansk Byplanlaboratorium}} and Byplanhistorisk Udvalg, Seminar},
   date = {2008},
   edition = {{[}1. oplag]},
   isbn = {978-87-87487-11-5},
@@ -8463,7 +8463,7 @@
 }
 
 @book{Alstrup2002ByplanhistoriskStatus,
-  author = {Alstrup, Inge09-27 and {Dansk Byplanlaboratorium} and Byplanhistorisk Udvalg, Seminar},
+  author = {Alstrup, Inge09-27 and {{Dansk Byplanlaboratorium}} and Byplanhistorisk Udvalg, Seminar},
   date = {2002},
   isbn = {87-90413-18-0},
   keywords = {mangler-metadata},
@@ -8818,7 +8818,7 @@
 }
 
 @report{Hausenberg2012KlimatilpasningKokkedala,
-  author = {{Hausenberg} and {Fredensborg Kommune}},
+  author = {{{Hausenberg}} and {{Fredensborg Kommune}}},
   date = {2012},
   institution = {{{Fredensborg Kommune}}},
   langid = {danish},
@@ -8846,7 +8846,7 @@
 }
 
 @misc{FredensborgKommune2014UsserodA,
-  author = {{Fredensborg Kommune} and {Hørsholm Kommune} and {Rudersdal Kommune} and {Fredensborg Forsyning A/S} and {Hørsholm Vand ApS} and {Forsyningen Allerød Rudersdal A/S}},
+  author = {{{Fredensborg Kommune}} and {{Hørsholm Kommune}} and {{Rudersdal Kommune}} and {{Fredensborg Forsyning A/S}} and {{Hørsholm Vand ApS}} and {{Forsyningen Allerød Rudersdal A/S}}},
   date = {2014},
   langid = {danish},
   timestamp = {2015-02-24 12:14:36 +0100},
@@ -9102,7 +9102,7 @@
   date = {1998},
   langid = {danish},
   location = {{{København}}},
-  publisher = {{Gyldendal, {[}1935]}},
+  publisher = {{{Gyldendal, {[}1935]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Kunstværket i dets tekniske reproducerbarheds tidsalder}
 }
@@ -9382,7 +9382,7 @@
   langid = {danish},
   location = {{{Kbh.}}},
   pages = {207--228},
-  publisher = {{Hans Reitzels Forlag, {[}1997]}},
+  publisher = {{{Hans Reitzels Forlag, {[}1997]}}},
   shorttitle = {Om aktør-netværksteori},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Om aktør-netværksteori. Nogle få afklaringer og mere end nogle få forviklinger}
@@ -9462,7 +9462,7 @@
 }
 
 @book{DanskByplanlaboratorium2006HvordanSkriver,
-  author = {{Dansk Byplanlaboratorium} and Byplanhistorisk Udvalg, Seminar and {Dansk Center for Byhistorie}},
+  author = {{{Dansk Byplanlaboratorium}} and Byplanhistorisk Udvalg, Seminar and {{Dansk Center for Byhistorie}}},
   date = {2006},
   isbn = {978-87-90413-36-1},
   keywords = {mangler-metadata},
@@ -9488,7 +9488,7 @@
 }
 
 @book{DanskArkitekturCenterDK20502014DK2050b,
-  author = {{Dansk Arkitektur Center DK2050} and {MUTOPIA} and {WE architecture} and {SLETH} and {Rambøll}},
+  author = {{{Dansk Arkitektur Center DK2050}} and {{MUTOPIA}} and {{WE architecture}} and {{SLETH}} and {{Rambøll}}},
   date = {2014},
   langid = {danish},
   publisher = {{{Dansk Arkitektur Center DK2050}}},
@@ -9536,7 +9536,7 @@
 
 @misc{KarleboKommune1945KarleboKommune,
   date = {1945-01},
-  editora = {{Karlebo Kommune} and Laugesen, Lauge},
+  editora = {{{Karlebo Kommune}} and Laugesen, Lauge},
   editoratype = {collaborator},
   langid = {danish},
   publisher = {{{Karlebo Kommune}}},
@@ -9564,7 +9564,7 @@
 }
 
 @book{LoneJansson2012BevaegelseAlle,
-  author = {{Lone Jansson} and {Torben Frølich} and {Naturstyrelsen}},
+  author = {{{Lone Jansson}} and {{Torben Frølich}} and {{Naturstyrelsen}}},
   date = {2012},
   langid = {danish},
   publisher = {{{Naturstyrelsen}}},
@@ -9771,7 +9771,7 @@
 }
 
 @report{Hausenberg2012KlimatilpasningKokkedalb,
-  author = {{Hausenberg} and {Fredensborg Kommune}},
+  author = {{{Hausenberg}} and {{Fredensborg Kommune}}},
   date = {2012},
   institution = {{{Fredensborg Kommune}}},
   langid = {danish},
@@ -9985,7 +9985,7 @@
 }
 
 @online{klimatilpasningdk2012FemStaerke,
-  author = {{klimatilpasning.dk} and {Miljøministeriet} and {Naturstyrelsen}},
+  author = {{{klimatilpasning.dk}} and {{Miljøministeriet}} and {{Naturstyrelsen}}},
   date = {2012-04-26},
   langid = {danish},
   shorttitle = {Fem stærke team},
@@ -10431,7 +10431,7 @@
   date = {2007},
   edition = {5. udgave.},
   langid = {danish},
-  location = {{{[}Kbh.]}},
+  location = {{{{[}Kbh.]}}},
   pagetotal = {398 sider},
   publisher = {{{Gyldendal}}},
   timestamp = {2015-02-24 12:14:36 +0100},
@@ -10475,7 +10475,7 @@
 }
 
 @report{Karlebosognerad1958ForslagTil,
-  author = {{Karlebo sogneråd} and Frandsen, Frands and Brandt, A. H.},
+  author = {{{Karlebo sogneråd}} and Frandsen, Frands and Brandt, A. H.},
   date = {1958-01-15},
   institution = {{{Karlebo Kommune}}},
   langid = {danish},
@@ -10741,7 +10741,7 @@
 }
 
 @report{Schonherr2014KlimatilpasningKokkedal,
-  author = {{Schønherr} and {Rambøll} and {BIG}},
+  author = {{{Schønherr}} and {{Rambøll}} and {{BIG}}},
   date = {2014},
   keywords = {vigtig},
   langid = {danish},
@@ -11159,7 +11159,7 @@
   isbn = {1-85343-139-7},
   location = {{{London}}},
   pages = {183--201},
-  publisher = {{Free Association, {[}1988]}},
+  publisher = {{{Free Association, {[}1988]}}},
   shorttitle = {Situated {{Knowledges}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Situated {{Knowledges}}: {{The Science Question}} in {{Feminism}} and the {{Privilege}} of {{Partial Perspective}}},
@@ -11343,7 +11343,7 @@
   author = {Latour, Bruno and Woolgar, Steve},
   date = {1986},
   location = {{{Princeton, N.J.}}},
-  publisher = {{Princeton University Press, {[}1979]}},
+  publisher = {{{Princeton University Press, {[}1979]}}},
   shorttitle = {Laboratory Life},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Laboratory {{Life}}. {{The Construction}} of {{Scientific Facts}}},
@@ -11412,7 +11412,7 @@
 }
 
 @book{Dalgas2010FraGraenselos,
-  author = {Dalgas, Vibeke and Kristensen, Hans and {Dansk Byplanlaboratorium} and Byplanhistorisk Udvalg, Seminar},
+  author = {Dalgas, Vibeke and Kristensen, Hans and {{Dansk Byplanlaboratorium}} and Byplanhistorisk Udvalg, Seminar},
   date = {2010},
   edition = {1. oplag},
   isbn = {978-87-87487-28-3},
@@ -11432,7 +11432,7 @@
   langid = {galician},
   location = {{{London}}},
   pages = {31--48},
-  publisher = {{Arnold, {[}1980]}},
+  publisher = {{{Arnold, {[}1980]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Cultural studies: Two paradigms}
 }
@@ -11748,7 +11748,7 @@
   date = {1998},
   isbn = {978-87-00-32456-5},
   pagetotal = {199},
-  publisher = {{Gyldendal, {[}1982]}},
+  publisher = {{{Gyldendal, {[}1982]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Genese},
   translator = {Brandt, Per Aage}
@@ -11914,7 +11914,7 @@
 }
 
 @misc{Beim2002OkologiOg,
-  author = {Beim, Anne and {Larsen} and {Mossin} and {Kunstakademiets Arkitektskole}},
+  author = {Beim, Anne and {{Larsen}} and {{Mossin}} and {{Kunstakademiets Arkitektskole}}},
   date = {2002},
   langid = {norsk},
   publisher = {{{Kunstakademiets Arkitektskoles Forlag}}},
@@ -12209,7 +12209,7 @@
 }
 
 @report{RambollNyvig2001VitaliseringAf,
-  author = {{Rambøll Nyvig} and {Søren Hansen}},
+  author = {{{Rambøll Nyvig}} and {{Søren Hansen}}},
   date = {2001},
   institution = {{{Karlebo Kommune}}},
   langid = {danish},
@@ -12495,7 +12495,7 @@
   author = {{{Le Corbusier}}},
   date = {1973},
   location = {{{New York}}},
-  publisher = {{Grossman Publishers, {[}1943, 1957]}},
+  publisher = {{{Grossman Publishers, {[}1943, 1957]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {The {{Athens Charter}}}
 }
@@ -12975,7 +12975,7 @@
   isbn = {978-0-226-14500-6},
   keywords = {Social Science / Anthropology / Cultural,skaf},
   pagetotal = {485},
-  publisher = {{University of Chicago Press, {[}2005]}},
+  publisher = {{{University of Chicago Press, {[}2005]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Beyond {{Nature}} and {{Culture}}}
 }
@@ -13053,7 +13053,7 @@
   date = {1996},
   isbn = {87-00-28644-3},
   langid = {danish},
-  location = {{{[}Kbh.]}},
+  location = {{{{[}Kbh.]}}},
   pagetotal = {XII, 874 s.},
   publisher = {{{Gyldendal}}},
   timestamp = {2015-02-24 12:14:36 +0100},
@@ -13313,7 +13313,7 @@
   isbn = {87-00-30916-8 978-87-00-30916-6},
   langid = {latvian},
   location = {{{København}}},
-  publisher = {{Gyldendal, {[}1935]}},
+  publisher = {{{Gyldendal, {[}1935]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Kulturkritiske essays}
 }
@@ -13379,7 +13379,7 @@
 }
 
 @book{COWIAS2014KortlaegningAfb,
-  author = {{COWI A/S} and {NIRAS A/S}},
+  author = {{{COWI A/S}} and {{NIRAS A/S}}},
   date = {2014},
   langid = {danish},
   publisher = {{{Fredensborg Kommune. Center for Plan og Miljø}}},
@@ -13403,7 +13403,7 @@
   author = {Lynch, Kevin},
   date = {1971},
   edition = {2},
-  publisher = {{MIT Press, {[}1. ed. 1962]}},
+  publisher = {{{MIT Press, {[}1. ed. 1962]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {Site planning}
 }
@@ -13729,7 +13729,7 @@
 @book{Gehl1996ByensRum,
   author = {Gehl, Jan},
   date = {1996},
-  editora = {Gemzøe, Lars and {Forskningsprojektet Bykultur}},
+  editora = {Gemzøe, Lars and {{Forskningsprojektet Bykultur}}},
   editoratype = {collaborator},
   isbn = {87-7407-185-8},
   langid = {swedish},
@@ -14232,7 +14232,7 @@
   langid = {norsk},
   location = {{{København}}},
   pages = {58--73},
-  publisher = {{Hans Reitzels Forlag, {[}2000]}},
+  publisher = {{{Hans Reitzels Forlag, {[}2000]}}},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {poststrukturalisme, dekonstruktion og tekstualitet}
 }
@@ -14345,7 +14345,7 @@
 }
 
 @report{NIRASKonsulenterne2012EvalueringAf,
-  author = {{NIRAS Konsulenterne} and {Naturstyrelsen} and {Lokale og Anlægsfonden}},
+  author = {{{NIRAS Konsulenterne}} and {{Naturstyrelsen}} and {{Lokale og Anlægsfonden}}},
   date = {2012},
   langid = {danish},
   timestamp = {2015-02-24 12:14:36 +0100},
