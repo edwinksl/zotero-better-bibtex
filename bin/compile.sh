@@ -15,5 +15,5 @@ trap "rm -rf $MYTMPDIR" EXIT
 
 cd "$MYTMPDIR"
 "$DIR/mwe.rb" "$BIB" 
-latexmk -silent mwe.tex
-#rubber -q mwe.tex
+#latexmk -silent mwe.tex
+rubber -q mwe.tex

@@ -1,5 +1,11 @@
 #!/usr/bin/env ruby
 
+BULK=[
+  'Really Big whopping library.biblatex',
+  'Bulk performance test.biblatex',
+  'Bulk performance test.stock.biblatex',
+].include?File.basename(ARGV[0])
+
 BIB=ARGV[0]
 
 open('mwe.tex', 'w') {|mwe|
@@ -9,7 +15,16 @@ open('mwe.tex', 'w') {|mwe|
     \\begin{filecontents}{\jobname.bib}
   """)
 
-  mwe.puts(open(BIB).read)
+  if BULK
+    mwe.puts("""
+      @inproceedings{bulk,
+        author = {Bulk},
+        booktitle = {Bulk}
+      }
+    """)
+  else
+    mwe.puts(open(BIB).read)
+  end
 
   mwe.puts("\\end{filecontents}")
 
@@ -18,14 +33,22 @@ open('mwe.tex', 'w') {|mwe|
       \\usepackage[backend=biber,style=authoryear-icomp,natbib=true,url=false,doi=true,eprint=false]{biblatex}
       \\addbibresource{\\jobname}
     """)
+  else
+    mwe.puts("""
+      \\usepackage{url}
+    """)
   end
 
   mwe.puts("\\begin{document}")
 
-  IO.readlines(BIB).each{|line|
-    next unless line.strip =~ /^@.*{(.*),$/
-    mwe.puts("\\cite{#{$1}}")
-  }
+  if BULK
+    mwe.puts("\\cite{bulk}")
+  else
+    IO.readlines(BIB).each{|line|
+      next unless line.strip =~ /^@.*{(.*),$/
+      mwe.puts("\\cite{#{$1}}")
+    }
+  end
 
   if File.extname(BIB) == '.biblatex'
     mwe.puts("\\printbibliography")
