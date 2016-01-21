@@ -785,9 +785,9 @@ class Literal extends String
     return '{'.repeat(@braces) + @value + '}'.repeat(@braces)
 
 class Braced extends Literal
-  constructor: (@value)
+  constructor: (@value) ->
     super(@value, 1)
 
 class DoubleBraced extends Literal
-  constructor: (@value)
+  constructor: (@value) ->
     super(@value, 2)
