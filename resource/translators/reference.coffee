@@ -241,7 +241,11 @@ class Reference
 
         when creator.lastName || creator.firstName
           name = []
-          name.push(new String(creator.lastName)) if creator.lastName
+          if creator.lastName
+            if creator.lastName.indexOf(' ') >= 0
+              name.push(new String(creator.lastName))
+            else
+              name.push(creator.lastName)
           if creator.firstName
             if creator.firstName.indexOf(@_enc_creators_relax_marker) >= 0 # zero-width space
               creator.firstName = '<span class="relax">' + creator.firstName.replace(@_enc_creators_relax_marker, '</span>')

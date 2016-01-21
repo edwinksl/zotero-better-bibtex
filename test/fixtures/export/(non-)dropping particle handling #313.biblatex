@@ -14,7 +14,7 @@
 }
 
 @book{fixedkey,
-  author = {von Humboldt, Alexander and Gooding, Jr., Cuba and de La Fontaine, Jean and von Wright, Georg Henrik Auto and {von Wright}, Georg Henrik Explicit},
+  author = {von Humboldt, Alexander and Gooding, Jr., Cuba and de La Fontaine, Jean and von Wright, Georg Henrik Auto and {{von Wright}}, Georg Henrik Explicit},
   date = {1963},
   isbn = {0-7100-3616-7},
   location = {{{Londres}}},
@@ -142,7 +142,7 @@
 }
 
 @article{disambiguate_FailWithYearSuffix,
-  author = {{Caritas Europa} and {JRS-Europe}},
+  author = {{{Caritas Europa}} and {{JRS-Europe}}},
   keywords = {imported},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {disambiguate\_{{FailWithYearSuffix}}}
@@ -267,7 +267,7 @@
 }
 
 @article{name_MultipleLiteral,
-  author = {{Alfred Benzon Foundation} and {James Benson Foundation} and {John Candy Foundation}},
+  author = {{{Alfred Benzon Foundation}} and {{James Benson Foundation}} and {{John Candy Foundation}}},
   keywords = {imported},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {name\_{{MultipleLiteral}}}
@@ -313,7 +313,7 @@
 }
 
 @article{name_ParticleCaps3,
-  author = {{Van Dyke}, Dick},
+  author = {{{Van Dyke}}, Dick},
   keywords = {imported},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {name\_{{ParticleCaps3}}}
@@ -367,14 +367,14 @@
 }
 
 @article{sort_ChangeInNameSort,
-  author = {{De Quincey}, Alan},
+  author = {{{De Quincey}}, Alan},
   keywords = {imported},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {sort\_{{ChangeInNameSort}}}
 }
 
 @article{sort_ChicagoYearSuffix1,
-  author = {Beijing Zoo, and {Beijing Zoo}},
+  author = {Beijing Zoo, and {{Beijing Zoo}}},
   keywords = {imported},
   timestamp = {2015-02-24 12:14:36 +0100},
   title = {sort\_{{ChicagoYearSuffix1}}}

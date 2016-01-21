@@ -12,7 +12,7 @@
 }
 
 @book{degaulle,
-  author = {{de Gaulle}, Charles}
+  author = {{{de Gaulle}}, Charles}
 }
 
 @book{king,
@@ -24,7 +24,7 @@
 }
 
 @book{nationalaeronauticsandspaceadministration,
-  author = {{National Aeronautics and Space Administration}}
+  author = {{{National Aeronautics and Space Administration}}}
 }
 
 @book{bovendeert,
@@ -58,7 +58,7 @@
 }
 
 @book{delamare,
-  author = {{de la Mare}, Walter}
+  author = {{{de la Mare}}, Walter}
 }
 
 @book{degette,
@@ -70,7 +70,7 @@
 }
 
 @book{marcusaurelius,
-  author = {{Marcus Aurelius}}
+  author = {{{Marcus Aurelius}}}
 }
 
 @book{dumas,
@@ -86,7 +86,7 @@
 }
 
 @book{vangulik,
-  author = {{van Gulik}, Robert}
+  author = {{{van Gulik}}, Robert}
 }
 
 @book{sackville-west,
@@ -132,7 +132,7 @@
 }
 
 @book{dagama,
-  author = {{da Gama}, Vasco}
+  author = {{{da Gama}}, Vasco}
 }
 
 @book{dannunzio,
