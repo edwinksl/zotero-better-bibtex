@@ -162,7 +162,7 @@ class Reference
     return ' '
 
   _enc_creators_quote_separators: (value) ->
-    return ((if i % 2 == 0 then n else new String(n)) for n, i in value.split(/(\s+and\s+|,)/i))
+    return ((if i % 2 == 0 then n else new Braced(n)) for n, i in value.split(/(\s+and\s+|,)/i))
 
   _enc_creators_biblatex: (name) ->
     for particle in ['non-dropping-particle', 'dropping-particle']
@@ -172,9 +172,9 @@ class Reference
       continue unless typeof v == 'string'
       switch
         when v.length > 1 && v[0] == '"' && v[v.length - 1] == '"'
-          name[k] = @enc_latex({ value: new String(v.slice(1, -1)) })
+          name[k] = @enc_latex({ value: new Braced(v.slice(1, -1)) })
         when k == 'family' && XRegExp.test(v, @startsWithLowercase)
-          name[k] = @enc_latex({ value: new String(v) })
+          name[k] = @enc_latex({ value: new Braced(v) })
         else
           name[k] = @enc_latex({ value: @_enc_creators_quote_separators(v), sep: ' '})
 
@@ -196,7 +196,7 @@ class Reference
 
     if name['dropping-particle'] || name['non-dropping-particle'] || (name.family || '').indexOf(' ') >= 0
       relax = if Translator.relaxAuthors then '<pre>\\relax </pre>' else ''
-      latex = [new String(relax + (part for part in [name['dropping-particle'], name['non-dropping-particle'], name.family] when part).join(''))]
+      latex = [new Braced(relax + (part for part in [name['dropping-particle'], name['non-dropping-particle'], name.family] when part).join(''))]
     else
       latex = [name.family]
     latex.push(name.suffix) if name.suffix
@@ -218,7 +218,7 @@ class Reference
     for creator in f.value
       switch
         when creator.name || (creator.lastName && creator.fieldMode == 1)
-          name = if raw then "{#{creator.name || creator.lastName}}" else @enc_latex({value: new String(creator.name || creator.lastName)})
+          name = if raw then "{#{creator.name || creator.lastName}}" else @enc_latex({value: new Braced(creator.name || creator.lastName)})
 
         when raw
           name = [creator.lastName || '', creator.firstName || ''].join(', ')
@@ -243,7 +243,7 @@ class Reference
           name = []
           if creator.lastName
             if creator.lastName.indexOf(' ') >= 0
-              name.push(new String(creator.lastName))
+              name.push(new Braced('<pre>\\relax ' + creator.lastName))
             else
               name.push(creator.lastName)
           if creator.firstName
@@ -269,7 +269,7 @@ class Reference
   # @return {String} field.value encoded as author-style value
   ###
   enc_literal: (f, raw) ->
-    return @enc_latex({value: new String(f.value)}, raw)
+    return @enc_latex({value: new DoubleBraced(f.value)}, raw)
 
   ###
   # Encode text to LaTeX
@@ -290,7 +290,7 @@ class Reference
     return f.value if raw
 
     value = LaTeX.text2latex(f.value, {preserveCase: f.preserveCase, autoCase: f.autoCase && @english})
-    value = new String("{{#{value}}}") if f.value instanceof String
+    value = new Literal(new Literal(value, f.value.braces).braced(), f.value.braces) if f.value.braces
     return value
 
   enc_tags: (f) ->
@@ -771,3 +771,23 @@ Language.lookup = (langcode) ->
     @cache[langcode].sort((a, b) -> b.sim - a.sim)
 
   return @cache[langcode]
+
+class Literal extends String
+  constructor: (@value, @braces) ->
+    @value ||= ''
+    @length = @value.length
+
+  toString: -> @value
+  valueOf: -> @value
+
+  braced: ->
+    return @value unless @value
+    return '{'.repeat(@braces) + @value + '}'.repeat(@braces)
+
+class Braced extends Literal
+  constructor: (@value)
+    super(@value, 1)
+
+class DoubleBraced extends Literal
+  constructor: (@value)
+    super(@value, 2)

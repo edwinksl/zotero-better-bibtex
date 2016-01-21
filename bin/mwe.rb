@@ -7,14 +7,25 @@ BULK=[
 ].include?File.basename(ARGV[0])
 
 BIB=ARGV[0]
+CITE=File.extname(BIB) == '.biblatex' ? 'citet' : 'cite'
+
+if File.extname(BIB) == '.biblatex'
+  PACKAGES=[
+    '\\usepackage[utf8]{inputenc}',
+    '\\usepackage[backend=biber,style=authoryear-icomp,natbib=true,url=false,doi=true,eprint=false]{biblatex}'
+  ]
+else
+  PACKAGES=[
+    '\\usepackage{url}'
+  ]
+end
 
 open('mwe.tex', 'w') {|mwe|
-  mwe.puts("""
-    \\documentclass{article}
-    \\usepackage{filecontents}
-    \\begin{filecontents}{\jobname.bib}
-  """)
+  mwe.puts("\\documentclass{article}")
+  mwe.puts("\\usepackage{filecontents}")
+  PACKAGES.each{|pkg| mwe.puts(pkg) }
 
+  mwe.puts("\\begin{filecontents*}{\\jobname.bib}")
   if BULK
     mwe.puts("""
       @inproceedings{bulk,
@@ -25,28 +36,18 @@ open('mwe.tex', 'w') {|mwe|
   else
     mwe.puts(open(BIB).read)
   end
+  mwe.puts("\\end{filecontents*}")
 
-  mwe.puts("\\end{filecontents}")
-
-  if File.extname(BIB) == '.biblatex'
-    mwe.puts("""
-      \\usepackage[backend=biber,style=authoryear-icomp,natbib=true,url=false,doi=true,eprint=false]{biblatex}
-      \\addbibresource{\\jobname}
-    """)
-  else
-    mwe.puts("""
-      \\usepackage{url}
-    """)
-  end
+  mwe.puts("\\addbibresource{\\jobname}") if File.extname(BIB) == '.biblatex'
 
   mwe.puts("\\begin{document}")
 
   if BULK
-    mwe.puts("\\cite{bulk}")
+    mwe.puts("\\#{CITE}{bulk}")
   else
     IO.readlines(BIB).each{|line|
       next unless line.strip =~ /^@.*{(.*),$/
-      mwe.puts("\\cite{#{$1}}")
+      mwe.puts("\\#{CITE}{#{$1}}")
     }
   end
 
