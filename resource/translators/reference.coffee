@@ -194,9 +194,11 @@ class Reference
     if name.family.length > 1 && name.family[0] == '"' && name.family[name.family.length - 1] == '"'
       name.family = name.family.slice(1, -1)
 
-    latex = [new String((part for part in [name['dropping-particle'], name['non-dropping-particle'], name.family] when part).join(''))]
+    latex = [(part for part in [name['dropping-particle'], name['non-dropping-particle'], name.family] when part).join('')]
+    #latex[0] = new String('<pre>\\relax </pre>' + latex[0]) if latex[0].length && Translator.relaxAuthors
     latex.push(name.suffix) if name.suffix
     latex.push(name.given) if name.given
+
     return @enc_latex({value: latex, sep: ', '})
 
   ###
@@ -281,7 +283,7 @@ class Reference
     return f.value if raw
 
     value = LaTeX.text2latex(f.value, {preserveCase: f.preserveCase, autoCase: f.autoCase && @english})
-    value = new String("{#{value}}") if f.value instanceof String
+    value = new String("{{#{value}}}") if f.value instanceof String
     return value
 
   enc_tags: (f) ->

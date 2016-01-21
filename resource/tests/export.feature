@@ -20,6 +20,13 @@ Scenario: Omit URL export when DOI present. #131
   And I set preference .DOIandURL to url
   Then a library export using 'Better BibLaTeX' should match 'export/Omit URL export when DOI present. #131.prefer-url.bib'
 
+@test-cluster-3
+@438
+Scenario: Relax author name unpacking #438
+  When I import 1 reference from 'export/Relax author name unpacking #438.json'
+  And I set preference .relaxAuthors to true
+  Then a library export using 'Better BibTeX' should match 'export/Relax author name unpacking #438.bib'
+
 @test-cluster-2
 @117
 Scenario: Bibtex key regenerating issue when trashing items #117

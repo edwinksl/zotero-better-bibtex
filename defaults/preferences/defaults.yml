@@ -23,6 +23,7 @@ pinCitekeys: manual
 preserveBibTeXVariables: false
 rawImports: false
 scanCitekeys: true
+relaxAuthors: false
 showCitekeys: false
 showItemIDs: false
 skipFields: ''
