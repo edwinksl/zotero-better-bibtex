@@ -194,8 +194,11 @@ class Reference
     if name.family.length > 1 && name.family[0] == '"' && name.family[name.family.length - 1] == '"'
       name.family = name.family.slice(1, -1)
 
-    latex = [(part for part in [name['dropping-particle'], name['non-dropping-particle'], name.family] when part).join('')]
-    #latex[0] = new String('<pre>\\relax </pre>' + latex[0]) if latex[0].length && Translator.relaxAuthors
+    if name['dropping-particle'] || name['non-dropping-particle']
+      relax = if Translator.relaxAuthors then '<pre>\\relax </pre>' else ''
+      latex = [new String(relax + (part for part in [name['dropping-particle'], name['non-dropping-particle'], name.family] when part).join(''))]
+    else
+      latex = [name.family]
     latex.push(name.suffix) if name.suffix
     latex.push(name.given) if name.given
 
